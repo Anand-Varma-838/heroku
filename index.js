@@ -46,7 +46,7 @@ const Game = {
   },
 
   playSong: {
-    color: color => new Audio(`../sounds/${color}.mp3`).play()
+    color: color => new Audio(`${color}.mp3`).play()
   },
 
   start() {
