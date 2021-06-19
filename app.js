@@ -5,6 +5,7 @@ const request = require("request");
 const path = require('path');
 const { json } = require('express');
 const app = express();
+const port = process.env.PORT || 3000
 app.use(parser.urlencoded({extended: true}));
 
 app.use(express.static(path.join(__dirname,'public')))
@@ -48,6 +49,6 @@ app.post('/', function(req, res){
     });
   });
 
-app.listen(process.env.PORT || 3000, function () {
+app.listen(port, function () {
   console.log('Node app is working!');
 });
