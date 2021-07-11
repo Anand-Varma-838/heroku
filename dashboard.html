@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+</head>
+<body>
+    <div class="navbar">
+        <p>STIGE FINAL</p>
+        <a href="dashboard.html" style="color: blueviolet;">Dashboard</a>
+        <a href="taskmanager.html">Task Manager</a>
+        <a href="course.html">Courses</a>
+        <a href="login.html" class="logout">Logout</a>
+    </div>
+    <div></div>
+    <div class="details">
+        <form action="dashboard.html">
+            <div>
+                <label>First Name: <input type="text" placeholder="AAA" readonly></label>
+            </div>
+            <br>
+            <div>
+                <label>Last Name: <input type="password" placeholder=""> </label>
+            </div>
+            <br>
+            <div>
+                <label>Email ID: <input type="password" placeholder=""> </label>
+            </div>
+            <br>
+            <div>
+                <label>Password: <input type="password" placeholder=""> </label>
+            </div>
+            <br>
+            <button id="update" onclick="update(this)">
+                Update
+            </button>
+        </form>
+    </div>
+    <script src="dash.js"></script>
+</body>
+</html>

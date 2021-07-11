@@ -1,0 +1,37 @@
+*{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+    position:relative;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+fieldset {
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+label, .e, .p{
+    
+    display: grid;
+    grid-template-columns: 80px 240px;
+    justify-content: center;
+}
+
+.log{
+    margin-top: 35px;
+}
+div a{
+    position:relative;
+    text-decoration: none;
+    color:deepskyblue;
+}
