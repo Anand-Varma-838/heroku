@@ -1,3 +1,5 @@
-<?php
-   include_once("rqg.html")
+<?php 
+
+    include_once("/public/login.html")
+
 ?>
